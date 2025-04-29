@@ -80,5 +80,4 @@ Advanced Clustering: Experiment with other clustering techniques such as Gaussia
 
 Feature Engineering: Add more features like purchase history, location data, or behavioral patterns from online activity to further refine the clusters.
 
-Model Deployment: Create an interactive dashboard for businesses to explore customer segments and use the model for real-time customer profiling.
 
