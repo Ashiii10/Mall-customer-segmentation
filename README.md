@@ -6,27 +6,28 @@ Mall customer segmentation is an essential business strategy used to identify di
 
 Dataset:
 The dataset used for this project is Mall_Customers.csv, which contains the following customer details:
-CustomerID: Unique ID for each customer.
 
-Gender: Gender of the customer.
+> CustomerID: Unique ID for each customer.
 
-Age: Age of the customer.
+> Gender: Gender of the customer.
 
-Annual Income: Income of the customer in thousands.
+> Age: Age of the customer.
 
-Spending Score: A score assigned to each customer based on their spending behavior.
+> Annual Income: Income of the customer in thousands.
 
-Feedback (optional): Customer feedback that can be analyzed for sentiment.
+> Spending Score: A score assigned to each customer based on their spending behavior.
+
+> Feedback (optional): Customer feedback that can be analyzed for sentiment.
 
 Problem Statement:
 
 The goal of this project is to segment mall customers into different clusters based on:
 
-Demographic characteristics (e.g., age, gender, income).
+> Demographic characteristics (e.g., age, gender, income).
 
-Behavioral characteristics (e.g., spending score).
+> Behavioral characteristics (e.g., spending score).
 
-Optional textual data (e.g., feedback) using NLP techniques.
+> Optional textual data (e.g., feedback) using NLP techniques.
 
 By identifying these customer segments, businesses can tailor marketing strategies, improving customer retention and satisfaction.
 
@@ -61,26 +62,29 @@ Pair Plot: A pairplot visualizes the relationships between different features an
 If a feedback column is available, Sentiment Analysis is performed on the textual feedback to classify it as positive or negative. This analysis provides additional insights into customer satisfaction.
 
 Results:
+
 Clustering Results:
 
-KMeans: The dataset was segmented into 4 clusters using the KMeans algorithm.
+> KMeans: The dataset was segmented into 4 clusters using the KMeans algorithm.
 
-DBSCAN: A different segmentation strategy was explored using DBSCAN, a density-based clustering algorithm.
+> DBSCAN: A different segmentation strategy was explored using DBSCAN, a density-based clustering algorithm.
 
-Cluster Profiling:
+> Cluster Profiling:
+
 The average characteristics of each cluster were computed, such as the average age, income, and spending score, to profile each customer segment.
 
-Dimensionality Reduction:
+> Dimensionality Reduction:
 PCA was applied to reduce the feature space and allow for easy visualization of the clusters. The explained variance ratio indicated that the two components captured a significant amount of the data variance.
 
-Visualizations:
+> Visualizations:
 Elbow Method and Silhouette Scores were used to assess the quality of the clustering results.
 A 3D Scatter Plot and Pairplot were created to further analyze the clusters and their characteristics.
 
-Sentiment Analysis:
+> Sentiment Analysis:
 The sentiment of customer feedback was analyzed and categorized as either positive or negative, providing deeper insights into customer satisfaction.
 
 Conclusion:
+
 The Mall Customer Segmentation project demonstrated how clustering techniques like KMeans and DBSCAN can be used to segment customers based on both demographic and behavioral data. By applying PCA for dimensionality reduction, visualizing the clusters, and profiling each segment, valuable insights were gained.
 KMeans clustering provided the most meaningful segmentation of customers, resulting in 4 distinct clusters.
 DBSCAN offered an alternative approach, focusing on density-based clustering.
@@ -89,6 +93,7 @@ Sentiment Analysis on feedback helped gain insights into customer satisfaction.
 The project showcases how businesses can leverage data analysis and machine learning to better understand their customers and improve decision-making.
 
 Future Work:
+
 Advanced Clustering: Experiment with other clustering techniques such as Gaussian Mixture Models (GMM) or Agglomerative Hierarchical Clustering for potentially better results.
 
 Feature Engineering: Add more features like purchase history, location data, or behavioral patterns from online activity to further refine the clusters.
